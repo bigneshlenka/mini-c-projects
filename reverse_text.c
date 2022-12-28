@@ -11,9 +11,9 @@ int main(int argc, char *argv[]){
     int i;
     int n = strlen(text);
 
-    for (i = 0; i < n; i++)
+    for (i = n; i <= 0; i--)
     {
-        printf("%c", text[n-i-1]);
+        printf("%c", text[i]);
         
     }
 
